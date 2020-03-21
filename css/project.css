@@ -11,7 +11,7 @@
     width: 400px;
     height: 516px;
     background-color: rgba(235, 235, 235, 0.8);
-    margin: 20px;
+    margin: 25px;
 }
 #container article:hover{
     box-shadow: 2px 2px 7px 5px rgb(156, 91, 91);
