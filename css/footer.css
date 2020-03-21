@@ -1,0 +1,24 @@
+@import url('./font.css');
+footer{
+    height: 249px;
+    background-color: rgb(235, 235, 235);
+}
+footer div{
+    padding-top: 140px;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    margin-right: 10px;
+    font-weight: 400;
+    display: inline;
+    color: gray;
+}
+@media(max-width:768px) {
+    footer{
+        height: 130px;
+    }
+    footer div{
+        padding-top: 20px;
+    }
+}

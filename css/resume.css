@@ -1,0 +1,45 @@
+@import url('./font.css');
+#container{
+    height: 713px;
+    background-color: rgb(226, 94, 101);
+}
+
+#container #resume{
+    color: white;
+    font-size: 1.5rem;
+}
+#resume ul{
+    margin: 0;
+    padding: 50px;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+#resume li{
+    list-style: none;
+    height: 70px;
+}
+#resume h3{
+    color: white;
+    font-weight: bold;
+}
+@media(max-width:768px){
+    #container{
+        height: 600px;
+    }
+    #container #resume{
+        font-size: 1.2rem;
+    }
+    #resume ul{
+        padding: 50px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+}
