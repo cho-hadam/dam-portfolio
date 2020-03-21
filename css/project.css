@@ -15,7 +15,6 @@
 }
 #container article:hover{
     box-shadow: 2px 2px 7px 5px rgb(156, 91, 91);
-    cursor: pointer;
 }
 .project{
     padding: 30px;
