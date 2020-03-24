@@ -27,6 +27,7 @@ main {
 }
 .user-image img {
     width: 250px;
+    height: 334px;
 }
 
 .profile-lists {
@@ -63,6 +64,7 @@ main {
 @media (max-width: 768px) {
     .user-image img {
         width: 130px;
+        height: 173px;
         margin-left: 20px;
     }
     main {
