@@ -10,7 +10,7 @@
 #container section{
     width: 998px;
     height: 614px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgba(235, 235, 235, 0.6);
 }
 .user-image{
     width: 392px;
