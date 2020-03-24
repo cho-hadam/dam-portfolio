@@ -66,3 +66,13 @@ nav {
 .nav-active {
     transform: translateX(0%);
 }
+
+.cancel .burger1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+.cancel .burger2 {
+    opacity: 0;
+}
+.cancel .burger3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
