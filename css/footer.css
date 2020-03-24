@@ -1,24 +1,22 @@
 @import url('./font.css');
-footer{
-    height: 249px;
+
+footer {
+    height: 15vh;
     background-color: rgb(235, 235, 235);
-}
-footer div{
-    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
-h3{
-    margin: 0;
-    margin-right: 10px;
-    font-weight: 400;
-    display: inline;
-    color: gray;
+
+.footer-lists {
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
-@media(max-width:768px) {
-    footer{
-        height: 130px;
-    }
-    footer div{
-        padding-top: 20px;
-    }
+
+.copy {
+    margin-top: 20px;
 }
