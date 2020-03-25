@@ -59,6 +59,9 @@ main {
     font-weight: 500;
     font-family: 'Noto Sans KR', sans-serif;
 }
+.profile h4 {
+    color: rgb(160, 160, 160);
+}
 
 .sns{
     font-size: 1.5rem;

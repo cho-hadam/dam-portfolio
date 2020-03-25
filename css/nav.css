@@ -3,7 +3,7 @@
     margin: 0;
 }
 nav {
-    background-color: #373B44;
+    background-color: rgb(23, 25, 29);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,7 +17,7 @@ nav {
 }
 .logo a{
     text-decoration: none;
-    color: rgb(190, 190, 190);
+    color: rgb(143, 115, 38);
 }
 .nav-lists {
     font-size: 1rem;
