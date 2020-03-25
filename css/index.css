@@ -65,7 +65,7 @@ main {
     .user-image img {
         width: 130px;
         height: 173px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     main {
         align-items: center;
@@ -78,11 +78,11 @@ main {
     }
     .profile-lists {
         height: 55%;
-        font-size: 1rem;
-        margin-left: 20px;
+        font-size: 0.8rem;
+        padding-left: 20px;
     }
     .profile-lists h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 500;
     }
     .sns-icon img {
