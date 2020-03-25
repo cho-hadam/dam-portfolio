@@ -5,95 +5,31 @@
 
 main {
     height: 75vh;
-    background-color: rgb(235, 123, 144);
+    background: #141E30;
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    background: linear-gradient(to top, #243B55, #141E30);
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
 .profile {
-    background-color: rgb(235, 235, 235);
-    width: 60%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    color: rgb(214, 214, 214);
+    font-size: 3rem;
 }
 
-.user-image {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-}
-.user-image img {
-    width: 250px;
-    height: 334px;
-}
-
-.profile-lists {
-    height: 55%;
-    list-style: none;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 1.2rem;
-}
-
-.profile-lists h1 {
-    font-size: 2rem;
+.profile h1 {
+    font-size: 5rem;
     font-weight: 500;
-}
-
-.profile-lists h3 {
-    font-weight: 500;
-}
-
-.sns a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-}
-.sns {
-    margin-top: 10px;
-}
-
-@media (max-width: 1024px) {
-    .profile {
-        width: 70%;
-    }
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    .user-image img {
-        width: 130px;
-        height: 173px;
-        margin-left: 10px;
-    }
-    main {
-        align-items: center;
-    }
     .profile {
-        background-color: rgba(235, 235, 235, 0.6);
-        width: 100%;
-        height: 80%;
-        box-shadow: 0px 4px 6px 1px rgba(104, 78, 81, 0.4);
+        font-size: 2rem;
     }
-    .profile-lists {
-        height: 55%;
-        font-size: 0.8rem;
-        padding-left: 20px;
-    }
-    .profile-lists h1 {
-        font-size: 1.4rem;
-        font-weight: 500;
-    }
-    .sns a {
-        font-size: 1.3rem;
-        text-decoration: none;
-        color: black;
-    }
-    .sns {
-        margin-top: 5px;
+    
+    .profile h1 {
+        font-size: 3rem;
     }
 }

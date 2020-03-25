@@ -3,11 +3,12 @@
     margin: 0;
 }
 nav {
-    background-color: rgb(235, 235, 235);
+    background-color: #373B44;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    z-index: 1;
 }
 .logo {
     width: 40vw;
@@ -16,7 +17,7 @@ nav {
 }
 .logo a{
     text-decoration: none;
-    color: rgb(54, 54, 54);
+    color: rgb(190, 190, 190);
 }
 .nav-lists {
     font-size: 1rem;
@@ -28,7 +29,7 @@ nav {
 }
 .nav-lists a{
     text-decoration: none;
-    color: black;
+    color: rgb(81, 119, 160);
 }
 .nav-lists a:hover{
     color: gray;
@@ -39,7 +40,7 @@ nav {
 }
 
 .burger div{
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(81, 119, 160);
     width: 25px;
     height: 4px;
     margin-bottom: 3px;
@@ -69,7 +70,7 @@ nav {
         height: 90vh;
         right: 0;
         width: 60%;
-        background-color: rgb(235, 235, 235);
+        background-color: #373B44;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }

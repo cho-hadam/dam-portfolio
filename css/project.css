@@ -1,7 +1,9 @@
 @import url('./font.css');
 
 main {
-    background-color: rgb(235, 123, 144);
+    background: #141E30;
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    background: linear-gradient(to top, #243B55, #141E30);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -10,7 +12,7 @@ main {
 }
 
 .project {
-    background-color: rgba(235, 235, 235, 0.8);
+    background-color: rgb(45, 72, 104);
     margin: 50px;
     width: 320px;
     height: 420px;
@@ -18,17 +20,21 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: rgb(17, 24, 39);
+    color: rgb(209, 209, 209);
 }
 .project:hover {
-    box-shadow: 2px 2px 7px 5px rgb(185, 103, 123);
+    box-shadow: 2px 2px 7px 5px rgb(25, 31, 48);
 }
 
 .project img {
     width: 250px;
     height: 230px;
+    opacity: 90%;
 }
 
 h2{
     margin: 0;
     margin-top: 50px;
+    font-weight: 500;
 }
