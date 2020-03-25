@@ -3,7 +3,7 @@
     margin: 0;
 }
 nav {
-    background-color: rgb(23, 25, 29);
+    background-color: rgb(34, 36, 41);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,7 +17,7 @@ nav {
 }
 .logo a{
     text-decoration: none;
-    color: rgb(143, 115, 38);
+    color: rgb(153, 126, 51);
 }
 .nav-lists {
     font-size: 1rem;
@@ -79,7 +79,7 @@ nav {
         height: 90vh;
         right: 0;
         width: 60%;
-        background-color: #373B44;
+        background-color: rgb(34, 36, 41);
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
