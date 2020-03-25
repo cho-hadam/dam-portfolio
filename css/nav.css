@@ -46,6 +46,8 @@ nav {
 @media (max-width: 768px) {
     body {
         overflow-x: hidden;
+        width: 100%;
+        position: fixed;
     }
     .burger {
         display: block;
