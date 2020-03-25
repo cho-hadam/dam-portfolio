@@ -46,7 +46,7 @@ main {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
     color: rgb(209, 209, 209);
 }
 
@@ -78,16 +78,16 @@ main {
 @media (max-width: 768px) {
     .profile {
         width: 70vw;
-        height: 45vh;
+        height: 48vh;
         margin-top: 5vh;
         box-shadow: 8px 8px 7px 3px rgba(26, 43, 63, 0.7);
     }
     .user-img {
-        top: 23vh;
+        top: 22vh;
     }
     .user-img img {
-        width: 100px;
-        height: 100px;
+        width: 13vh;
+        height: 13vh;
     }
     .profile-lists {
         font-size: 0.8rem;
