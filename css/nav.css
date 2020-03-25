@@ -11,7 +11,7 @@ nav {
     z-index: 1;
 }
 .logo {
-    width: 40vw;
+    width: 30vw;
     display: flex;
     justify-content: center;
 }
@@ -21,7 +21,7 @@ nav {
 }
 .nav-lists {
     font-size: 1rem;
-    width: 60vw;
+    width: 50vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -47,6 +47,15 @@ nav {
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 40vw;
+    }
+    .nav-lists {
+        width: 60vw;
+    }
 }
 
 @media (max-width: 768px) {

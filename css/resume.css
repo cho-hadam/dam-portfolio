@@ -1,4 +1,4 @@
-@import url('./font.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:500&display=swap&subset=korean');
 main{
     height: 75vh;
     background: #141E30;
@@ -25,10 +25,12 @@ main{
 .resume-lists li{
     list-style: none;
     height: 70px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .resume-lists h3{
     color: rgb(184, 184, 184);
     font-weight: 600;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 @media(max-width:768px){
     #resume{
