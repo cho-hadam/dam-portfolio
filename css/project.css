@@ -21,6 +21,7 @@ main {
     align-items: center;
     justify-content: center;
     color: rgb(209, 209, 209);
+    cursor: pointer;
 }
 .project:hover {
     box-shadow: 2px 2px 7px 5px rgb(25, 31, 48);
