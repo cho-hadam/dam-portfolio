@@ -4,13 +4,16 @@
 }
 
 .day .logo a,
-.day .footer-lists h4 {
+.day .footer-lists h4,
+.day .resume-lists h3 {
     color: #2c1f47;
 }
 
 .day .nav-lists a,
 .day footer,
-.day .profile-lists {
+.day .profile-lists,
+.day .sns a,
+.day .resume-lists {
     color: #434147;
 }
 .day .nav-lists a:hover{
@@ -35,8 +38,22 @@
     color: rgb(104, 84, 91);
 }
 
+.day .project {
+    background-color: #f3d6e2;
+    color: #434147;
+}
+.day .project:hover {
+    box-shadow: 2px 2px 7px 5px rgba(202, 164, 183, 0.541);
+}
+
 @media (max-width: 768px) {
     .day .nav-lists a {
         color: #efeaff;
+    }
+    .day .nav-lists {
+        background-color: #ff9393;
+    }
+    .day .profile {
+        box-shadow: 5px 5px 7px 5px rgba(202, 164, 183, 0.541);
     }
 }

@@ -43,6 +43,9 @@ nav {
 .icon-moon-inv {
     color: rgb(81, 119, 160);
 }
+.icon-moon {
+    color: #ddd6f3;
+}
 
 .burger {
     display: none;
