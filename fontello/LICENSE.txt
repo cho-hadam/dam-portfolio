@@ -10,6 +10,15 @@ Font license info
    Homepage:  http://typicons.com/
 
 
+## Meteocons
+
+   Copyright (C) 2012 by Alessio Atzeni
+
+   Author:    Alessio Atzeni
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://www.alessioatzeni.com
+
+
 ## Font Awesome
 
    Copyright (C) 2016 by Dave Gandy

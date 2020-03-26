@@ -17,6 +17,18 @@
       "css": "instagram",
       "code": 61805,
       "src": "fontawesome"
+    },
+    {
+      "uid": "34e68aa8fbf61f02a748043ccf448a3b",
+      "css": "moon",
+      "code": 59393,
+      "src": "meteocons"
+    },
+    {
+      "uid": "2adfda136b09532bd8174b025b67fe87",
+      "css": "moon-inv",
+      "code": 59394,
+      "src": "meteocons"
     }
   ]
 }
