@@ -3,17 +3,17 @@ const navLists = document.querySelector('.nav-lists');
 const switchBtn = document.querySelector('.nav-lists i');
 const body = document.querySelector('body');
 
-if(localStorage.getItem('mode') == null) {
-    localStorage.setItem('mode', 'night');
-} else {
-    if(localStorage.getItem('mode') == 'day') {
-        body.classList.add('day');
-        switchBtn.classList.remove('icon-moon-inv');
-        switchBtn.classList.add('icon-moon');
+function loadMode() {
+    const mode = localStorage.getItem('mode');
+
+    if(mode == null) {
+        localStorage.setItem('mode', 'night');
     } else {
-        body.classList.remove('day');
-        switchBtn.classList.remove('icon-moon');
-        switchBtn.classList.add('icon-moon-inv');
+        if(mode == 'day') {
+            day();
+        } else {
+            night()
+        }
     }
 }
 
@@ -21,19 +21,29 @@ function changeMode() {
     const mode = localStorage.getItem('mode');
 
     if(mode == 'night') {
-        body.classList.add('day');
         localStorage.setItem('mode', 'day');
-        switchBtn.classList.remove('icon-moon-inv');
-        switchBtn.classList.add('icon-moon');
+        day();
     } else {
-        body.classList.remove('day');
         localStorage.setItem('mode', 'night');
-        switchBtn.classList.remove('icon-moon');
-        switchBtn.classList.add('icon-moon-inv');
+        night();
     }
 }
 
+function day() {
+    body.classList.add('day');
+    switchBtn.classList.remove('icon-moon-inv');
+    switchBtn.classList.add('icon-moon');
+}
+
+function night() {
+    body.classList.remove('day');
+    switchBtn.classList.remove('icon-moon');
+    switchBtn.classList.add('icon-moon-inv');
+}
+
 function init() {
+    loadMode();
+
     burger.addEventListener("click", () => {
         navLists.classList.toggle('nav-active');
         burger.classList.toggle('cancel');
