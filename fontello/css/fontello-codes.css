@@ -2,4 +2,8 @@
 .icon-facebook-circled:before { content: '\e800'; } /* '' */
 .icon-moon:before { content: '\e801'; } /* '' */
 .icon-moon-inv:before { content: '\e802'; } /* '' */
+.icon-left-open:before { content: '\e803'; } /* '' */
+.icon-right-open:before { content: '\e804'; } /* '' */
+.icon-circle-empty:before { content: '\f10c'; } /* '' */
+.icon-circle:before { content: '\f111'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
