@@ -5,9 +5,7 @@ function init() {
     burger.addEventListener("click", () => {
         navLists.classList.toggle('nav-active');
         burger.classList.toggle('cancel');
-    })
-
-    switchBtn.addEventListener("click", changeMode);
+    });
 }
 
 init();
