@@ -50,6 +50,9 @@
 .day .img-slide i {
     color: #615c69;
 }
+.day .img-slide i:hover {
+    color: #ddd6f3;
+}
 
 @media (max-width: 768px) {
     .day .nav-lists a {
