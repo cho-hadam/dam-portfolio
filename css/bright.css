@@ -1,0 +1,42 @@
+.day nav,
+.day footer {
+    background-color: #ff9393;
+}
+
+.day .logo a,
+.day .footer-lists h4 {
+    color: #2c1f47;
+}
+
+.day .nav-lists a,
+.day footer,
+.day .profile-lists {
+    color: #434147;
+}
+.day .nav-lists a:hover{
+    color: #ddd6f3;
+}
+
+.day .burger div{
+    background-color: #ddd6f3;
+}
+
+.day main {
+    background: #ddd6f3;
+    background: -webkit-linear-gradient(to bottom, #faaca8, #ddd6f3);
+    background: linear-gradient(to bottom, #faaca8, #ddd6f3);
+}
+
+.day .profile {
+    background-color: #f3d6e27c;
+}
+
+.day .profile-lists h4 {
+    color: rgb(104, 84, 91);
+}
+
+@media (max-width: 768px) {
+    .day .nav-lists a {
+        color: #efeaff;
+    }
+}

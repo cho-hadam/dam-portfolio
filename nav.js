@@ -1,14 +1,17 @@
 const burger = document.querySelector('.burger');
-const nav = document.querySelector('.nav-lists');
+const navLists = document.querySelector('.nav-lists');
 const switchBtn = document.querySelector('.nav-lists i');
+const body = document.querySelector('body');
 
 function init() {
     burger.addEventListener("click", () => {
-        nav.classList.toggle('nav-active');
+        navLists.classList.toggle('nav-active');
         burger.classList.toggle('cancel');
     })
 
     switchBtn.addEventListener("click", () => {
+        body.classList.toggle('day');
+        
         if(switchBtn.classList.value == 'icon-moon-inv') {
             switchBtn.classList.remove('icon-moon-inv');
             switchBtn.classList.add('icon-moon');
