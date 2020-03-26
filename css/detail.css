@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:500&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400&display=swap&subset=korean');
 
 * {
     margin: 0;
@@ -30,7 +30,9 @@ section {
 
 .img-slide i {
     cursor: pointer;
-    z-index: 3;
+}
+.img-slide i:hover {
+    color: gray;
 }
 
 .images {
@@ -53,4 +55,46 @@ section {
 .details {
     margin-left: 20px;
     width: 35vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: justify;
+}
+
+.details h1 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    section {
+        height: 65vh;
+        flex-direction: column;
+    }
+    
+    .img-slide {
+        font-size: 2rem;
+    }
+    
+    .project-img {
+        width: 25vh;
+        height: 25vh;
+    }
+    
+    .project-img img {
+        width: 25vh;
+        height: 25vh;
+    }
+    
+    .details {
+        margin-left: 0px;
+        width: 70vw;
+    }
+    
+    .details h1 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .details {
+        font-size: 0.8rem;
+    }
 }
