@@ -11,7 +11,7 @@ main{
 
 #resume{
     color: rgb(153, 153, 153);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .resume-lists {
     padding: 50px;
@@ -34,6 +34,6 @@ main{
 }
 @media(max-width:768px){
     #resume{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
