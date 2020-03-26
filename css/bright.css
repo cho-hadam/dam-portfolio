@@ -4,8 +4,7 @@
 }
 
 .day .logo a,
-.day .footer-lists h4,
-.day .resume-lists h3 {
+.day .footer-lists h4 {
     color: #2c1f47;
 }
 
@@ -13,7 +12,8 @@
 .day footer,
 .day .profile-lists,
 .day .sns a,
-.day .resume-lists {
+.day .resume-lists,
+.day .details {
     color: #434147;
 }
 .day .nav-lists a:hover{
@@ -34,7 +34,8 @@
     background-color: #f3d6e27c;
 }
 
-.day .profile-lists h4 {
+.day .profile-lists h4,
+.day .resume-lists h3 {
     color: rgb(104, 84, 91);
 }
 
@@ -44,6 +45,10 @@
 }
 .day .project:hover {
     box-shadow: 2px 2px 7px 5px rgba(202, 164, 183, 0.541);
+}
+
+.day .img-slide i {
+    color: #615c69;
 }
 
 @media (max-width: 768px) {
