@@ -15,8 +15,11 @@ function init() {
     });
 
     pjtList.forEach((a) => {
-        a.addEventListener('click', () => {
+        a.addEventListener('click', (event) => {
             dropdown.classList.remove('dropdown-active');
+            if(event.target.text != "1ST GRADE") {
+                alert("준비 중입니다.");
+            }
         })
     })
 }
