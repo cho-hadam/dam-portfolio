@@ -54,6 +54,19 @@
     color: #ddd6f3;
 }
 
+.day .dropdown {
+    background-color: #ff9393;
+}
+.day .dropdown li:hover {
+    background-color: #ff8181;
+}
+.day .dropdown li:hover > a {
+    color: #ddd6f3;
+}
+.day .dropdown a {
+    color: #434147;
+}
+
 @media (max-width: 768px) {
     .day .nav-lists a {
         color: #efeaff;
@@ -63,5 +76,17 @@
     }
     .day .profile {
         box-shadow: 5px 5px 7px 5px rgba(202, 164, 183, 0.541);
+    }
+    .day .dropdown {
+        background-color: #ffaeae;
+    }
+    .day .dropdown li:hover {
+        background-color: #ff8181;
+    }
+    .day .dropdown li:hover > a {
+        color: #e4daff;
+    }
+    .day .dropdown a {
+        color: #57506b;
     }
 }
